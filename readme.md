@@ -91,8 +91,8 @@ The `requirements.txt` file includes the following dependencies:
 
 Make sure to have these packages installed in your Python environment before running the analysis script.
 
-##Medium Article
-The `Medium_Article.md` file contains a Medium article discussing the analysis, insights, and findings derived from the IMDb Top 1000 dataset. It provides a detailed explanation of the analyses performed and the significance of the derived insights.
+## Medium Article
+The `Medium_Article.md` file contains a Medium article discussing the analysis, insights, and findings derived from the IMDb Top 1000 dataset. It provides a detailed explanation of the analyses performed and the significance of the derived insights.You may also find article[here](https://medium.com/@sai2804aniruth/unveiling-movie-trends-in-depth-analysis-of-imdb-top-1000-dataset-4d707a5e31c5)
 
 ## Contributing
 Contributions are welcome! If you have any suggestions, improvements, or additional analyses, feel free to open an issue or create a pull request.

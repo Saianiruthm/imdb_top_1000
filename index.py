@@ -106,7 +106,7 @@ plt.show()
 #insight:The bar graph shows Anthony Russo as the director with the highest average gross earnings.
 
 # Count the occurrences of each genre per year
-genre_year_counts = df.groupby(['Released_Year', 'Main_Genre']).size().reset_index(name='Count')
+genre_year_counts = df.assign(Genres=df['Genre'].str.split(',')).explode('Genre').groupby('Genres')['Released_Year'].size().reset_index(name='Count')
 
 # Plotting genre popularity over the years
 plt.figure(figsize=(12, 8))
